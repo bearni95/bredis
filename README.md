@@ -12,7 +12,6 @@ Bredis operates with 4 basic commands: `use`, `set`, `get` and `remove`
 To avoid compatibility problems bredis prefixes it's localStorage items. The default prefix is 'bredis-' but you can change it using `bredis.use`
 
 ```javascript
-//The set method accepts key-value pairs
 bredis.use('new-prefix')
 ```
 
